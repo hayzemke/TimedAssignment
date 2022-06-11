@@ -9,6 +9,7 @@ builder.Services.AddDbContext<SocialMedia_DbContext>(options=> options.UseSqlSer
 builder.Services.AddScoped<iUserService, UserService>();
 builder.Services.AddScoped<iComment, CommentService>();
 builder.Services.AddScoped<IReplyService, ReplyService>();
+builder.Services.AddScoped<IPostService, PostService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
