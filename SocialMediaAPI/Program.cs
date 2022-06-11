@@ -8,6 +8,7 @@ builder.Services.AddDbContext<SocialMedia_DbContext>(options=> options.UseSqlSer
 
 builder.Services.AddScoped<iUserService, UserService>();
 builder.Services.AddScoped<iComment, CommentService>();
+builder.Services.AddScoped<IReplyService, ReplyService>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -15,6 +16,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+//1-18 is the ioc
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
