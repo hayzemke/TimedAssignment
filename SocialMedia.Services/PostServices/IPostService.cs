@@ -6,6 +6,6 @@ using System.Threading.Tasks;
 
     public interface IPostService
     {
-        Task<bool> RegisterPostAsync(PostModel model);
+        Task<bool> RegisterPostAsync(PostCreate model);
          Task<IEnumerable<PostListItem>> GetPostListItemsAsync();
     }

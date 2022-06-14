@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Mvc;
      }   
 
         [HttpPost("PostMedia")]
-        public async Task<IActionResult> PostMedia([FromBody] PostModel model)
+        public async Task<IActionResult> PostMedia([FromBody] PostCreate model)
         {
             if(!ModelState.IsValid)
             {

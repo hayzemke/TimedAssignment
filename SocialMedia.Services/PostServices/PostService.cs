@@ -12,7 +12,7 @@ using System.Threading.Tasks;
         {
             _context = context;
         }
-        public async Task<bool> RegisterPostAsync(PostModel model)
+        public async Task<bool> RegisterPostAsync(PostCreate model)
         {
             var entity = new Post
             {
@@ -21,14 +21,14 @@ using System.Threading.Tasks;
                 Comments = model.Comments,
                 Likes = model.Likes
             };
-            _context.Posts.Add(entity);
+            _context.Post.Add(entity);
             var numberOfChanges = await _context.SaveChangesAsync();
             return numberOfChanges == 1;
         }
 
         public async Task<IEnumerable<PostListItem>> GetPostListItemsAsync()
         {
-            var posts = await _context.Posts
+            var posts = await _context.Post
             .Where(entity => entity.ID == _postID)
             .Select(entity => new PostListItem
             {
