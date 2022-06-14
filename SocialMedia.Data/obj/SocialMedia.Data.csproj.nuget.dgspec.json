@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/SocialMedia.Data.csproj": {}
+    "C:\\144_immersions\\TimedAssn\\TimedAssignment\\SocialMedia.Data\\SocialMedia.Data.csproj": {}
   },
   "projects": {
-    "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/SocialMedia.Data.csproj": {
+    "C:\\144_immersions\\TimedAssn\\TimedAssignment\\SocialMedia.Data\\SocialMedia.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/SocialMedia.Data.csproj",
+        "projectUniqueName": "C:\\144_immersions\\TimedAssn\\TimedAssignment\\SocialMedia.Data\\SocialMedia.Data.csproj",
         "projectName": "SocialMedia.Data",
-        "projectPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/SocialMedia.Data.csproj",
-        "packagesPath": "/Users/hales/.nuget/packages/",
-        "outputPath": "/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/obj/",
+        "projectPath": "C:\\144_immersions\\TimedAssn\\TimedAssignment\\SocialMedia.Data\\SocialMedia.Data.csproj",
+        "packagesPath": "C:\\Users\\Hanyo\\.nuget\\packages\\",
+        "outputPath": "C:\\144_immersions\\TimedAssn\\TimedAssignment\\SocialMedia.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/hales/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Hanyo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -64,7 +64,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }
