@@ -18,7 +18,7 @@ public class UserController : ControllerBase
     }
 
     [HttpPost("Register")]
-    public async Task<IActionResult> RegisterUser([FromBody] UserRegister model)
+    public async Task<IActionResult> RegisterUser([FromForm] UserRegister model)
     {
         if (!ModelState.IsValid)
             return BadRequest(ModelState);

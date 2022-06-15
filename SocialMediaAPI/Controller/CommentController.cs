@@ -15,7 +15,7 @@ using Microsoft.AspNetCore.Mvc;
         }
 
         [HttpPost("Create Comment")]
-        public async Task<IActionResult> CreateComment([FromBody] CommentDetail model)
+        public async Task<IActionResult> CreateComment([FromForm] CommentDetail model)
         {
             if(!ModelState.IsValid)
                 return BadRequest(ModelState);

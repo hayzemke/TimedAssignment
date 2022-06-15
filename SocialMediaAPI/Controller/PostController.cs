@@ -15,7 +15,7 @@ public class PostController : ControllerBase
     }
 
     [HttpPost("PostMedia")]
-    public async Task<IActionResult> PostMedia ([FromBody] PostCreate model)
+    public async Task<IActionResult> PostMedia ([FromForm] PostCreate model)
     {
         if (!ModelState.IsValid)
         {
