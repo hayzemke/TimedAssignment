@@ -1,10 +1,14 @@
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
 
 public class UserEntity
     {   [Key]
         public int ID { get; set; }
 
-        [Required]
         public string FirstName { get; set; }
         public string LastName { get; set; }
 
@@ -16,9 +20,6 @@ public class UserEntity
 
         [Required]
         public string Password { get; set; }
-
-        [Required]
-        public string ConfirmPassword { get; set; }
 
         public DateTime DateJoined { get; set; }
     }

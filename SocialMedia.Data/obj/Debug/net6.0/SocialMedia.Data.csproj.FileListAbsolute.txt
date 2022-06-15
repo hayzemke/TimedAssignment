@@ -39,3 +39,4 @@ C:/144_immersions/TimedAssn/TimedAssignment/SocialMedia.Data/obj/Debug/net6.0/re
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/obj/Debug/net6.0/ref/SocialMedia.Data.dll
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/obj/Debug/net6.0/SocialMedia.Data.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/obj/Debug/net6.0/SocialMedia.Data.genruntimeconfig.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMedia.Data/obj/Debug/net6.0/SocialMedia.Data.csproj.AssemblyReference.cache
