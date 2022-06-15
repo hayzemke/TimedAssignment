@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
 
-
-    public class PostService : IPostService
+public class PostService : IPostService
     {
         private readonly SocialMedia_DbContext _context;
         private readonly int _postID;
@@ -12,15 +12,14 @@ using System.Threading.Tasks;
         {
             _context = context;
         }
-        public async Task<bool> RegisterPostAsync(PostModel model)
+        public async Task<bool> RegisterPostAsync(PostCreate model)
         {
             var entity = new Post
             {
                 Title = model.Title,
                 Text = model.Text,
-                Comments = model.Comments,
-                Likes = model.Likes
             };
+            
             _context.Posts.Add(entity);
             var numberOfChanges = await _context.SaveChangesAsync();
             return numberOfChanges == 1;

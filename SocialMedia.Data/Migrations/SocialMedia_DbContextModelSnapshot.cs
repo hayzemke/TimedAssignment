@@ -82,7 +82,7 @@ namespace SocialMedia.Data.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Post");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Reply", b =>
@@ -96,6 +96,9 @@ namespace SocialMedia.Data.Migrations
                     b.Property<int?>("Comment")
                         .HasColumnType("int");
 
+                    b.Property<int>("CommentID")
+                        .HasColumnType("int");
+
                     b.Property<string>("Text")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -104,7 +107,7 @@ namespace SocialMedia.Data.Migrations
 
                     b.HasIndex("Comment");
 
-                    b.ToTable("Reply");
+                    b.ToTable("Replies");
                 });
 
             modelBuilder.Entity("UserEntity", b =>

@@ -6,9 +6,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<SocialMedia_DbContext>(options=> options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<iUserService, UserService>();
-builder.Services.AddScoped<iComment, CommentService>();
-builder.Services.AddScoped<IReplyService, ReplyService>();
+builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IComment, CommentService>();
 builder.Services.AddScoped<IPostService, PostService>();
 
 builder.Services.AddControllers();
