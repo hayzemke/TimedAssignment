@@ -10,9 +10,9 @@ using Microsoft.AspNetCore.Mvc;
 [ApiController]
 public class UserController : ControllerBase
 {
-    private readonly iUserService _userService;
+    private readonly IUserService _userService;
 
-    public UserController(iUserService userService)
+    public UserController(IUserService userService)
     {
         _userService = userService;
     }

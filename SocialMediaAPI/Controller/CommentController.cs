@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Mvc;
     [Route("api/[controller]")]
     public class CommentController : ControllerBase
     {
-        private readonly iComment _commentService;
+        private readonly IComment _commentService;
 
-        public CommentController(iComment commentService)
+        public CommentController(IComment commentService)
         {
             _commentService=commentService;
         }
