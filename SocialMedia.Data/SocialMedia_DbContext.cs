@@ -11,4 +11,6 @@ public class SocialMedia_DbContext : DbContext
 
     public DbSet<UserEntity> Users { get; set; }
     public DbSet<Comment> Comments { get; set; }
+    public DbSet<Reply> Replies { get; set; }
+    public DbSet<Post> Posts { get; set; }
 }
