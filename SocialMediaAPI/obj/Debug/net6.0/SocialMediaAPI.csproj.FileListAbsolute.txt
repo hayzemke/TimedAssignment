@@ -1,10 +1,3 @@
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.csproj.AssemblyReference.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.GeneratedMSBuildEditorConfig.editorconfig
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.AssemblyInfoInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.AssemblyInfo.cs
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.csproj.CoreCompileInputs.cache
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.MvcApplicationPartsAssemblyInfo.cs
-/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/appsettings.Development.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/appsettings.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/SocialMediaAPI
@@ -264,6 +257,13 @@
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/SocialMedia.Data.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/SocialMedia.Models.pdb
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/bin/Debug/net6.0/SocialMedia.Services.pdb
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.csproj.AssemblyReference.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.AssemblyInfoInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.AssemblyInfo.cs
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.csproj.CoreCompileInputs.cache
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/SocialMediaAPI.MvcApplicationPartsAssemblyInfo.cache
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/staticwebassets.build.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/staticwebassets.development.json
 /Users/hales/Desktop/1150/ElevenFiftyProjects/144_Immersions/TimedAssignment/TimedTeamAssn/SocialMediaAPI/obj/Debug/net6.0/scopedcss/bundle/SocialMediaAPI.styles.css
